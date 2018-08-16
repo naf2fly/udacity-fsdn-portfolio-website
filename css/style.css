@@ -1,0 +1,172 @@
+/*Universal Design*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=greek');
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #666666;
+}
+
+/*Header Design*/
+.p-text {
+	font-size: 3vw;
+}
+
+.social-buttons {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.hdr-text{
+	font-size: 5vw;
+}
+.header {
+	text-align: center;
+	margin: 25px 0px;
+}
+.git-button {
+	width: 40%;
+	height: auto;
+	margin: 5px;
+}
+
+
+.footer{
+	text-align: center;
+	background-color: #F89400;
+	padding: 5px 0px 5px 0px;
+	font-weight: bold;
+}
+
+/*Featured Work Grid design*/
+
+
+.responsive-img {
+	height: auto;
+	max-width: 100%;
+}
+
+
+.fwork-grid{
+	margin: 10px 0px;
+	text-align: center;
+}
+
+.fwork-grid-header{
+	margin-top: 25px;
+	text-align: center;
+}
+.grid-elements{
+	margin: 20px;
+	box-shadow: 0 0 11px rgba(33,33,33,.6);
+}
+
+.fwork-header {
+	margin-top: 10px;
+}
+
+.fwork-grid-header {
+	color: #7d97ad;
+}
+
+.add-shadow :hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+
+/*Responsive Designs*/
+
+
+@media screen and (min-width: 480px) {
+	.hdr-text {
+		font-size: 6vw;
+	}
+
+	.p-text {
+		font-size: 4vw;
+	}
+
+	.fwork-img{
+		width: 100%;
+	}
+
+
+}
+
+
+@media screen and (min-width: 720px) {
+	.fwork-grid, .header {
+		display: flex;
+		flex-grow: 1;
+		flex-shrink: 0;
+		max-width: 1440px;
+	}
+
+	.hr{
+	margin-bottom: 30px;
+   background: #666666;
+   height:5px;
+	}
+
+	.footer{
+		padding: 10px 0px 10px 0px;
+	}
+
+	*{
+		margin: 0px 15px 0px 15px;
+	}
+
+	.header{
+		justify-content: space-between;
+		text-align: right;
+	}
+
+	.logo{
+		margin-left: -10px;
+		width: 15%;
+	}
+
+	.hdr-text {
+		font-size: 4vw;
+	}
+
+	.p-text {
+		font-size: 2vw;
+	}
+	.buttons-list {
+		justify-content: flex-end;
+	}
+	.fwork-img{
+		width: 100%;
+		margin-left: -3px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.hdr-text {
+		font-size: 2.7vw;
+	}
+
+	.p-text {
+		font-size: 1vw;
+	}
+
+	.fwork-grid{
+		justify-content: space-around;
+	}
+
+	*{
+		margin: 0px 15px 0px 15px;
+	}
+}
