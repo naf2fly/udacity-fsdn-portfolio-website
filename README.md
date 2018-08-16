@@ -4,9 +4,6 @@ This Webpage displays a portfolio of my projects. It is basically a conversion o
 
 It has been developed as part of Udacity's [Full Stack Web Developer Nanodegree](https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
-## Demo
-A demo of this project can be found [here](https://codehawkdevs.github.io/udacity-fsdn-portfolio-website/).
-
 ## Directory Structure
 ```
 .
@@ -16,7 +13,7 @@ A demo of this project can be found [here](https://codehawkdevs.github.io/udacit
 │   ├── gith.png
 │   ├── hero.jpg
 │   ├── linh.png
-|	├── logo.PNG
+|	  ├── logo.PNG
 │   ├── twih.png
 │   └── vog.png
 │   ├── work1.jpg
