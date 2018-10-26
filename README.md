@@ -10,4 +10,4 @@ Here is a breakdown of principal files of this project:
   - `style.css` - This file contains the CSS rules for the Webpage.
 
 ## Contact Information
-If you have any queries or issues to report, you can contact me on [Twitter](https://twitter.com/harshsahu97).
+If you have any queries or issues to report, you can contact me on [Twitter](https://twitter.com/harshsahu97/).
