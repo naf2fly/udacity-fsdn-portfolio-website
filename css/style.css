@@ -9,10 +9,12 @@
 }
 
 /*Header Design*/
+/* P class */
 .p-text {
 	font-size: 3vw;
 }
 
+/* Social-buttons class */
 .social-buttons {
 	display: flex;
 	justify-content: center;
@@ -20,7 +22,7 @@
 	margin: 0;
 	padding: 0;
 }
-
+/* Logo class */
 .logo {
     display: block;
     margin-left: auto;
@@ -67,19 +69,22 @@
 	margin-top: 25px;
 	text-align: center;
 }
+/* Grid-elements */
 .grid-elements{
 	margin: 20px;
 	box-shadow: 0 0 11px rgba(33,33,33,.6);
 }
-
+/* Fwork-header class */
 .fwork-header {
 	margin-top: 10px;
 }
 
+/* Fwork-grid-header class */ 
 .fwork-grid-header {
 	color: #7d97ad;
 }
 
+/* Add-shadow class */
 .add-shadow :hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
